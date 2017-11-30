@@ -1,0 +1,103 @@
+html {}
+body {
+ font-family: Vivaldi; 
+  color: #000000;
+    background-image: url("https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/23131987_389202394846541_133327466330401123_n.jpg?oh=ffcd3f5ab072206ce67a228cfa78c4f6&oe=5AA40C49") ;
+    background-size: 100% 100%;
+  font-size: 40px;
+background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul {
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+ font-size: 17px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #9b3f3f;
+
+}
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+p{
+  text-align:center;
+   line-height: 0.8;
+   font-family: "Lucida Calligraphy", Times, serif;
+	  font-size: 30px;
+	  color: #ffffff;
+	  text-shadow: 2px 2px #000000;
+}
+h1{
+text-align: center;}
+h2{
+  text-align:center;
+    font-family: "Gabriola";
+
+}
+img {
+  display: center;
+    margin: auto;
+    width: 15%;
+}
+a:link {
+    color: darkgray; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+    background-color: transparent;
+    text-decoration: none;
+
+}
